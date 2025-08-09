@@ -1,4 +1,34 @@
 @import "tailwindcss";
+@import "@fontsource/playfair-display";
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(135deg, #ffe0ec 0%, #fff7fa 100%);
+  font-family: 'Playfair Display', var(--font-geist-sans), serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fecdd3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fb7185;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f43f5e;
+}
 
 :root {
   --background: #ffffff;
